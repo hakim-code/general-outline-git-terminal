@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Upload Process</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .step {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .step-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>How to Upload a Project to GitHub</h1>
+
+    <div class="step">
+        <div class="step-title">Initialize a Local Git Repository:</div>
+        <p>Navigate to project directory, run <code>git init</code></p>
+    </div>
+
+    <div class="step">
+        <div class="step-title">Add Project Files to the Repository:</div>
+        <p>Run <code>git add .</code> or <code>git add &lt;file1&gt; &lt;file2&gt; ...</code></p>
+    </div>
+
+    <div class="step">
+        <div class="step-title">Create a .gitignore File (Optional):</div>
+        <p>Create .gitignore, list files to exclude</p>
+    </div>
+
+    <div class="step">
+        <div class="step-title">Commit the Changes:</div>
+        <p>Run <code>git commit -m "Initial commit"</code></p>
+    </div>
+
+    <div class="step">
+        <div class="step-title">Create a New Repository on GitHub:</div>
+        <p>Log in to GitHub, create new repo, keep it empty</p>
+    </div>
+
+    <div class="step">
+        <div class="step-title">Link the Local Repository to the GitHub Repository:</div>
+        <p>Run <code>git remote add origin &lt;repository_URL&gt;</code></p>
+    </div>
+
+    <div class="step">
+        <div class="step-title">Push Local Repository to GitHub:</div>
+        <p>Run <code>git push -u origin master</code></p>
+    </div>
+
+    <div class="step">
+        <div class="step-title">Subsequent Pushes:</div>
+        <p>For updates, commit and run <code>git push origin &lt;branch_name&gt;</code></p>
+    </div>
+
+</body>
+</html>
+
